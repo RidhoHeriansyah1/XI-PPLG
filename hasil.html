@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Hasil Setor</h1>
+  <form method="GET" action="struk.php">
+    <table>
+      <tr>
+        <td>Pilih Rekening</td>
+        <td>:</td>
+        <td><select name="rek">
+        <option>Rekening</option>
+          <option>M-Banking</option>
+          <option>DEBIT</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td>Pilih bank</td>
+        <td>:</td>
+        <td><select name="bank">
+          <option>Pilih Bank</option>
+          <option>BNI</option>
+          <option>BCA</option>
+          <option>BRI</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td>No Rek Pengirim</td>
+        <td>:</td>
+        <td><input type="text" name="nopengirim"></td>
+      </tr>
+      <tr>
+        <td>No Rek Penerima</td>
+        <td>:</td>
+        <td><input type="text" name="nopenerima"></td>
+      </tr>
+      <tr>
+        <td>Nominal</td>
+        <td>:</td>
+        <td><input type="text" name="nom"></td>
+      </tr>
+      <tr>
+        <td>Keterangan</td>
+        <td>:</td>
+        <td><textarea name="ket"></textarea></td>
+      </tr>
+      <tr>
+      <td></td>
+      <td></td>
+      <td align="right"><input type="submit"></td>
+      </tr>
+
+    </table>
+  </form>
+  
+</body>
+</html>
